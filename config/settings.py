@@ -34,10 +34,6 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
 # ALLOWED_HOSTS = []
 
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
-
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
-
 # Application definition
 
 INSTALLED_APPS = [
