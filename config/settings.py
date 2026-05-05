@@ -34,6 +34,11 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
 # ALLOWED_HOSTS = []
 
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.railway.app",
+]
+
 # Application definition
 
 INSTALLED_APPS = [
